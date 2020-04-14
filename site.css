@@ -1,0 +1,12 @@
+body, html {
+    height: 100%;
+}
+.page {
+    min-height: 100%;
+    padding: 55px;
+}
+#topbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
