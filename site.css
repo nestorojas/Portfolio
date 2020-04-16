@@ -16,10 +16,6 @@ body, html {
     width: 100%;
     z-index: 1;
 }
-#greeting {
-    display: flex;
-    justify-content: center;
-}
 .Welcome h1{
     overflow: hidden;
     border-bottom: tomato;
@@ -37,4 +33,18 @@ body, html {
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: yellow; }
+  }
+  @media only screen and (min-width:768px){
+      #smallgretting{
+          display:none;
+      }
+      #greeting {
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width:768px){
+    #greeting {
+        display: none;
+    }
   }
