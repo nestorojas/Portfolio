@@ -1,6 +1,12 @@
 body, html {
     height: 100%;
 }
+.bckimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/Toronto-by-alex-shutin-unsplash.jpg");
+    min-height: 100%;
+  }
 .page {
     min-height: 100%;
     padding: 55px;
@@ -10,3 +16,25 @@ body, html {
     width: 100%;
     z-index: 1;
 }
+#greeting {
+    display: flex;
+    justify-content: center;
+}
+.Welcome h1{
+    overflow: hidden;
+    border-bottom: tomato;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: yellow; }
+  }
