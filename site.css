@@ -7,9 +7,14 @@ body, html {
     background-image: url("images/Toronto-by-alex-shutin-unsplash.jpg");
     min-height: 100%;
   }
+  .project1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/aspnetAPI.jpg");
+  }
 .page {
     min-height: 100%;
-    padding: 55px;
+    padding: 60px;
 }
 #topbar {
     position: fixed;
@@ -47,4 +52,10 @@ body, html {
     #greeting {
         display: none;
     }
+  }
+  .card-img-top{
+    height:100px;
+  }
+  .card-text{
+    height: 100px;
   }
