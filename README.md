@@ -1,4 +1,4 @@
-# Nestor Rojas - Project0
+# Nestor Rojas
 ## Personal - Portfolio Page
 
 This is a static HTML- CSS web site for my personal portfolio, the repository contains the following files.
