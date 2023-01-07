@@ -1,7 +1,8 @@
+# Kondor Plus Consulting
 # Nestor Rojas
-## Personal - Portfolio Page
+### Company - Portfolio Page
 
-This is a static HTML- CSS web site for my personal portfolio, the repository contains the following files.
+This is a static HTML- CSS web site for my company portfolio, the repository contains the following files.
 
 1. Index.html : landing page, includes a dynamic typing animation programmed in site.css file
 2. blog.html : simple html markup for sample blog
