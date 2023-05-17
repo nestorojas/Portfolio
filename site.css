@@ -4,7 +4,7 @@ body, html {
 .bckimg {
     background-position: center;
     background-size: cover;
-    background-image: url('../images/toronto-by-alex-shutin-unsplash.jpg');
+    background-image: url('/images/toronto-by-alex-shutin-unsplash.jpg');
     display: flex;
     padding-top:100px;
     justify-content: center;
