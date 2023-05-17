@@ -4,9 +4,17 @@ body, html {
 .bckimg {
     background-position: center;
     background-size: cover;
-    background-image: url("images/Toronto-by-alex-shutin-unsplash.jpg");
-    min-height: 100%;
-  }
+    background-image: url('../images/toronto-by-alex-shutin-unsplash.jpg');
+    display: flex;
+    padding-top:100px;
+    justify-content: center;
+    height: 500px;
+}
+    .bckimg h3 {
+        background: linear-gradient(45deg, white, red, blue, black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
   .project1 {
     background-position: center;
     background-size: cover;
