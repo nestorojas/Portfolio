@@ -1,24 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Projects - Kondor Plus</title>
+    <title>Blog - Kondor Plus</title>
 </head>
 <body>
     <div id="navbar-container"></div>
     
-    <div class="container page">
+    <div class="container-fluid">
         <div class="jumbotron">
             <h1>Blog</h1>
         </div>
-        <div class="container-fluid page" id="blog">
+        
+        <!-- LLMs and RAG Systems Section -->
+        <div class="container-fluid" id="blog-llms-rag">
+            <h2>LLMs and RAG Systems</h2>
+            <div class="row">
+                <!-- Blog Post Card -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <img src="/images/llm.jpg" alt="LLM" class="card-img-top" height="200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Retrieval Augmented Generation</h5>
+                            <p class="card-text">ABuilding a Q&A System for YouTube Videos with Python and GPT-3.5 (Jupyter Notebook).</p>
+                            <a href="hhttps://www.nestorojas.com/retrieval-augmented-generation" class="btn btn-primary btn-sm" target="_blank">Read</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more blog post cards here for LLMs and RAG systems -->
+            </div>
+        </div>
+
+        <!-- .NET Section -->
+        <div class="container-fluid" id="blog-dotnet">
+            <h2>.NET</h2>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="images/threading.jpg" alt="CSharp" height="200px">
+                        <img src="images/threading.jpg" alt="CSharp" class="card-img-top" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">C# Implementing Multi-Threading and Asynchronous Processing</h5>
                             <p class="card-text">In .NET web development, asynchronous programming is used to improve the scalability and responsiveness of web applications.</p>
@@ -28,7 +50,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="images/ddl.jpg" alt="dropdown list" height="200px">
+                        <img src="images/ddl.jpg" alt="dropdown list" class="card-img-top" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">Creating a Cascade Dropdown List in ASPNET MVC - Core using jQuery and AJAX</h5>
                             <p class="card-text">Cascade Dropdown List in ASP.NET Core 6 using Razor Pages. Here's how you can achieve this using jQuery and AJAX</p>
@@ -38,7 +60,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
-                        <img src="images/di.jpg" alt="dependency injection" height="200px">
+                        <img src="images/di.jpg" alt="dependency injection" class="card-img-top" height="200px">
                         <div class="card-body">
                             <h5 class="card-title">Mastering Dependency Injection in ASP.NET Core MVC using .NET 6: A Comprehensive Guide</h5>
                             <p class="card-text">In this blog post, we will discuss what Dependency Injection is and how to use it in ASP.NET Core MVC with .NET 6.</p>
@@ -47,6 +69,7 @@
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 
     <div id="footer-container"></div>
